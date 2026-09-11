@@ -1,0 +1,10 @@
+fun main() {
+
+    for (angka in 1..10) {
+
+        if (angka % 2 != 0) {
+            println(angka)
+        }
+
+    }
+}
