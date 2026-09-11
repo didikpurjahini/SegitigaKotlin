@@ -1,0 +1,10 @@
+fun main() {
+
+    for (tahun in 2000..2030) {
+
+        if (tahun % 400 == 0 || tahun % 4 == 0 && tahun % 100 != 0) {
+            println("$tahun adalah tahun kabisat")
+        }
+
+    }
+}
