@@ -1,0 +1,13 @@
+fun main() {
+
+    val jumlahBaris = 5
+
+    for (baris in 1..jumlahBaris) {
+
+        for (bintang in 1..(jumlahBaris - baris + 1)) {
+            print("*")
+        }
+
+        println()
+    }
+}
